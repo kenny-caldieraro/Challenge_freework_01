@@ -1,0 +1,105 @@
+/* CONTAINER */
+
+#container {
+  background: url(../crew/background-crew-desktop.jpg) no-repeat center center /
+    cover;
+  height: 100vh;
+  color: var(--third-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding-top: 6rem;
+}
+
+main {
+  display: flex;
+  width: 100%;
+  height: 76vh;
+}
+
+aside {
+  padding-left: 15rem;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+/* TITLE */
+
+h1 {
+  font-size: 2rem;
+  font-weight: 200;
+  text-align: left;
+  color: var(--third-color);
+  text-transform: uppercase;
+  padding-bottom: 5rem;
+  padding-left: 15rem;
+}
+
+h1 strong {
+  color: gray;
+  letter-spacing: 4px;
+}
+
+h2 {
+  color: gray;
+  font-size: 2.4rem;
+  text-transform: uppercase;
+  padding-bottom: 1.5rem;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-size: 3.8rem;
+  padding-bottom: 2rem;
+}
+
+/* ARTICLE */
+
+article {
+  width: 50%;
+}
+
+article:nth-child(2) {
+  padding-left: 10rem;
+  display: flex;
+}
+
+article:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  width: 68%;
+  color: var(--second-color);
+  font-size: 1.4rem;
+  line-height: 1.6;
+  padding-bottom: 7rem;
+}
+
+/* NAV */
+
+aside ul {
+  width: 24%;
+  display: flex;
+  justify-content: space-between;
+}
+
+aside ul li a {
+  background-color: rgba(100, 100, 100, 0.5);
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+}
+
+aside ul li a:hover {
+  background-color: rgba(150, 150, 150, 0.7);
+  cursor: pointer;
+}
+
+.crew-item {
+  background-color: white;
+  border-radius: 50%;
+}

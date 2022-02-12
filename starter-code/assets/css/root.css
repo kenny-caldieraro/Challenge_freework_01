@@ -1,0 +1,17 @@
+/* ROOT */
+
+@import url("https://fonts.googleapis.com/css2?family=Bellefair&display=swap");
+
+html {
+  font-family: "Bellefair", serif;
+}
+
+* {
+  --first-color: #0b0d17;
+  --second-color: #d0d6f9;
+  --third-color: #ffffff;
+}
+
+.nav-list-item {
+  border-bottom: 3px solid white;
+}

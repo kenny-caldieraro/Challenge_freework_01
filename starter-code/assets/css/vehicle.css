@@ -1,0 +1,114 @@
+/* CONTAINER */
+
+#container {
+  background: url(../technology/background-technology-desktop.jpg) center center /
+    cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+main {
+  max-height: 65vh;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 10vh;
+  justify-content: end;
+}
+
+/* NAV */
+
+#vehicle_nav {
+  width: 21%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+}
+
+#vehicle_nav li {
+  color: white;
+  border: 2px solid gray;
+  border-radius: 50%;
+  height: 5rem;
+  width: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+#vehicle_nav li:hover {
+  border: 2px solid white;
+}
+
+.vehicle-item {
+  background: white;
+  color: black !important;
+}
+
+/* TITLE */
+
+h1 {
+  font-size: 2rem;
+  font-weight: 200;
+  text-align: left;
+  color: var(--third-color);
+  text-transform: uppercase;
+  padding-bottom: 5rem;
+  padding-left: 15rem;
+}
+
+h1 strong {
+  color: gray;
+  letter-spacing: 4px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: var(--second-color);
+  padding-bottom: 1rem;
+}
+
+h3 {
+  color: white;
+  font-size: 4.8rem;
+  text-transform: uppercase;
+  padding-bottom: 1.5rem;
+}
+
+/* ARTICLE */
+
+article {
+  height: 53vh;
+}
+
+article:nth-child(2) {
+  width: 50%;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-evenly; */
+}
+
+article:nth-child(3) {
+  height: 60vh;
+}
+
+p {
+  color: var(--second-color);
+  width: 65%;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  letter-spacing: 1px;
+}
+
+/* IMG */
+
+img {
+  width: auto;
+  height: 100%;
+}

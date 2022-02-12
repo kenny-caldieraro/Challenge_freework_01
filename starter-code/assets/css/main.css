@@ -1,0 +1,84 @@
+/* HTML */
+
+html {
+  background-color: black;
+}
+
+/* CONTAINER */
+
+#container {
+  background: url(../home/background-home-desktop.jpg) no-repeat center center /
+    cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding-bottom: 10rem;
+}
+
+/* MAIN */
+
+main {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* ARTICLE 1 */
+
+.title {
+  width: 26%;
+  height: 44vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.title > h1 {
+  font-size: 1.8rem;
+  font-weight: 200;
+  text-align: left;
+  color: white;
+  text-transform: uppercase;
+}
+
+.index_p {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 200;
+  letter-spacing: 0.5px;
+  line-height: 1.8;
+  text-align: justify;
+  width: 92%;
+}
+
+.title > h1 > strong {
+  font-size: 10rem;
+  padding-top: 2rem;
+  display: block;
+}
+
+/* ARTICLE 2 */
+
+.start {
+  background-color: white;
+  height: 17rem;
+  width: 17rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: end;
+  transition: 0.5s;
+}
+
+.start > p {
+  font-size: 2.2rem;
+  text-transform: uppercase;
+}
+
+/* START */
+
+.start:hover {
+  box-shadow: 0px 0px 0px 90px rgba(255, 255, 255, 0.19);
+  cursor: pointer;
+}
